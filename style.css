@@ -1,0 +1,484 @@
+body {
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#welcome-section {
+    margin: 0%;
+    padding: 10%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.image {
+    margin: 0%;
+    height: 80vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-thumbnail {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid green;
+}
+
+.introduce-myself {
+    margin: 0%;
+    padding: 10% 5% 10% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh;
+    width: 80%;
+    text-align: justify;
+}
+
+.introduce-myself h1 {
+    font-weight: bold; 
+    color: black;
+}
+
+.introduce-myself h3 {
+    color: red;
+}
+
+.introduce-myself p {
+    font-size: 16px;
+    color: black;
+}
+
+#about-me {
+    margin: 0%;
+    padding: 10%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    margin: 0%;
+    padding: 0%;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline-description {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline-line {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    margin: 0%;
+    padding: 0%;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph p {
+    margin: 0% 0% 0% 20%; 
+    font-size: 16px;
+    text-align: justify;
+}
+
+#projects {
+    margin: 0%;
+    padding: 10%;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-headline {
+    margin: 0%;
+    padding: 0%;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-description {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-line {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-projects {
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 20%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-tile {
+    margin: 5%;
+    height: auto;
+    width: auto;
+    border: 3px solid green;
+    border-radius: 10px; 
+}
+
+.project-tile a {
+    text-decoration: none;
+    color: black;
+}
+
+.project-tile a:hover {
+    color: red;
+}
+
+.project-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    height: auto;
+    width: auto;
+}
+
+.project-image {
+    height: 200px;
+    width: 150px;
+    border-radius: 6px 6px 0px 0px; 
+}
+
+.project-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding-top: 10%;
+    height: 30px;
+    width: 150px;
+    border-top: 2px solid green;
+    border-radius: 0px 0px 6px 6px; 
+}
+
+.project-name p {
+    font-size: 12px;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.show-all-projects {
+    margin: 0%;
+    padding: 0% 0% 0% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+}
+
+.show-all-projects a {
+    text-decoration: none;
+    color: black;
+}
+
+.show-all-projects a:hover {
+    color: red;
+}
+
+.show-all-projects a button {
+    margin: auto;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    border: 2px solid green;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#contact-me {
+    margin: 0%;
+    padding: 10%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me-headline {
+    margin: 0%;
+    padding: 0%;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me-headline-description {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me-line {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me-link {
+    margin: 0%;
+    padding: 0% 0% 0% 20%;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-me-link a {
+    margin: 5%;
+}
+
+.btn {
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.btn:hover {
+    transition: all 200ms ease-in;
+    transform: scale(1.25);
+}
+
+.facebook-btn {
+    color: #3b5998;
+}
+
+.twitter-btn {
+    color: #55ACEE;
+}
+
+.github-btn {
+    color: #24292F;
+}
+
+.freecodecamp-btn {
+    color: #006400;
+}
+
+.linkedin-btn {
+    color: #0073B0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Nova Flat', cursive;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 380px) {
+    #welcome-section {padding: 1%;}
+    .image {width: 40%;}
+    .introduce-myself {width: 60%;}
+    .introduce-myself h1 {font-size: 16px;}
+    .introduce-myself h3 {font-size: 14px;} 
+    .introduce-myself p {font-size: 12px;}
+    #about-me {padding: 1%;} 
+    .headline {height: 20vh;}
+    .headline h3 {font-size: 16px;}
+    .headline-description {width: 40%;}
+    .headline-line {width: 60%;}
+    .paragraph {height: 40vh; width: 100%;}
+    .paragraph p {margin: 0%; font-size: 12px;}
+    #projects {padding: 5% 1% 1% 1%;}
+    .projects-headline {width: 100%;}
+    .projects-headline h3 {font-size: 16px;}
+    .projects-description {width: 40%;}
+    .projects-line {width: 60%;}
+    .project {padding: 0%;}
+    .project-tile {margin: 1%;}
+    .project-image {height: 100px; width: 70px;}
+    .project-name {padding-top: 15%; height: 35px; width: 70px;}
+    .project-name p {font-size: 10px;}
+    .show-all-projects {padding: 0%;}
+    .show-all-projects a button {width: 70px; font-size: 10px;}
+    #contact-me {padding: 1%;}
+    .contact-me-headline {height: 20vh;}
+    .contact-me-headline h3 {font-size: 16px;}
+    .contact-me-headline-description {width: 40%;}
+    .contact-me-line {width: 60%;}
+    .contact-me-link {height: 40vh; padding: 0%;}
+    .contact-me-link a {margin: 0%;}
+    footer p {font-size: 14px; font-weight: bold;}
+}
+
+@media only screen and (min-width: 381px) and (max-width: 480px) {
+    #welcome-section {padding: 1%;}
+    .image {width: 40%;}
+    .introduce-myself {width: 60%;}
+    .introduce-myself h1 {font-size: 16px;}
+    .introduce-myself h3 {font-size: 14px;} 
+    .introduce-myself p {font-size: 12px;}
+    #about-me {padding: 1%;} 
+    .headline {height: 20vh;}
+    .headline h3 {font-size: 16px;}
+    .headline-description {width: 40%;}
+    .headline-line {width: 60%;}
+    .paragraph {height: 40vh; width: 100%;}
+    .paragraph p {margin: 0%; font-size: 12px;}
+    #projects {padding: 8% 1% 1% 1%;}
+    .projects-headline {width: 100%;}
+    .projects-headline h3 {font-size: 16px;}
+    .projects-description {width: 40%;}
+    .projects-line {width: 60%;}
+    .project {padding: 0%;}
+    .project-tile {margin: 4%;}
+    .project-image {height: 100px; width: 80px;}
+    .project-name {padding-top: 15%; height: 35px; width: 80px;}
+    .project-name p {font-size: 10px;}
+    .show-all-projects {padding: 0%;}
+    .show-all-projects a button {width: 80px; font-size: 10px;}
+    #contact-me {padding: 1%;}
+    .contact-me-headline {height: 20vh;}
+    .contact-me-headline h3 {font-size: 16px;}
+    .contact-me-headline-description {width: 40%;}
+    .contact-me-line {width: 60%;}
+    .contact-me-link {height: 40vh; padding: 0%;}
+    .contact-me-link a {margin: 2%;}
+    footer p {font-size: 14px; font-weight: bold;}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #welcome-section {padding: 1%;}
+    .image {width: 40%;}
+    .introduce-myself {width: 60%;}
+    .introduce-myself h1 {font-size: 16px;}
+    .introduce-myself h3 {font-size: 14px;} 
+    .introduce-myself p {font-size: 12px;}
+    #about-me {padding: 1%;} 
+    .headline {height: 20vh;}
+    .headline h3 {font-size: 16px;}
+    .headline-description {width: 40%;}
+    .headline-line {width: 60%;}
+    .paragraph {height: 40vh; width: 100%;}
+    .paragraph p {margin: 0%; font-size: 12px;}
+    #projects {padding: 8% 1% 1% 1%;}
+    .projects-headline {width: 100%;}
+    .projects-headline h3 {font-size: 16px;}
+    .projects-description {width: 40%;}
+    .projects-line {width: 60%;}
+    .project {padding: 0%;}
+    .project-tile {margin: 4%;}
+    .project-image {height: 150px; width: 100px;}
+    .project-name {padding-top: 15%; height: 35px; width: 100px;}
+    .project-name p {font-size: 10px;}
+    .show-all-projects {padding: 0%;}
+    .show-all-projects a button {width: 100px; font-size: 10px;}
+    #contact-me {padding: 1%;}
+    .contact-me-headline {height: 20vh;}
+    .contact-me-headline h3 {font-size: 16px;}
+    .contact-me-headline-description {width: 40%;}
+    .contact-me-line {width: 60%;}
+    .contact-me-link {height: 40vh; padding: 0%;}
+    .contact-me-link a {margin: 4%;}
+    footer p {font-size: 14px; font-weight: bold;}
+}
